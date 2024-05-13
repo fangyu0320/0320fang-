@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ADD8E6, #FFFACD); /* 淡蓝色到淡黄色的渐变 */
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 应用于所有文本元素的阴影样式 */
+h1, h2, h3, p, li {
+    text-shadow: 2px 2px 10px rgba(255, 215, 0, 0.8); /* 亮金黄色阴影效果 */
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+header h3 {
+    font-size: 24px; /* 根据需要调整字体大小 */
+}
+
+header p {
+    font-size: 18px;
+    color: #666;
+}
+
+.about-me, .contact {
+    margin-top: 30px;
+}
+
+.about-me h2, .contact h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.FB {
+    width: 200px; /* 设置按钮宽度 */
+    height: 50px; /* 设置按钮高度 */
+    border-radius: 25px; /* 设置边框半径为按钮高度的一半，使其成为椭圆形 */
+    background-color: #007bff; /* 设置按钮背景颜色为蓝色 */
+    color: black; /* 设置文字颜色为黑色 */
+    border: none; /* 移除边框 */
+    font-size: 20px; /* 设置文字大小为20像素 */
+    font-weight: bold; /* 设置文字加粗 */
+    mix-blend-mode: multiply; /* 使用 multiply 混合模式 */
+}
+
+.IG {
+    width: 200px; /* 设置按钮宽度 */
+    height: 50px; /* 设置按钮高度 */
+    border-radius: 25px; /* 设置边框半径为按钮高度的一半，使其成为椭圆形 */
+    background-color: #d9ff00; /* 设置按钮背景颜色为蓝色 */
+    color: rgb(76, 0, 255); /* 设置文字颜色为黑色 */
+    border: none; /* 移除边框 */
+    font-size: 20px; /* 设置文字大小为20像素 */
+    font-weight: bold; /* 设置文字加粗 */
+    mix-blend-mode: multiply; /* 使用 multiply 混合模式 */
+}
